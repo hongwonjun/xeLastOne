@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget version="1.0">
+    <title xml:lang="ko">Sandwhale 최근글 위젯</title>
+    <description xml:lang="ko">가장 최근 하나의 문서를 출력하는 위젯입니다.</description>
+    <version>1.0</version>
+    <date>2016.05.18</date>
+
+    <author email_address="hong.wonjun@outlook.com" link="https://github.com/wonjunHong">
+        <name xml:lang="ko">Sandwhale</name>
+    </author>
+
+    <extra_vars>
+        <var id="target_mid">
+            <type>mid</type>
+            <name xml:lang="ko">대상 모듈</name>
+            <description xml:lang="ko">선택한 모듈의 글을 대상으로 합니다.</description>
+        </var>
+    </extra_vars>
+</widget>
