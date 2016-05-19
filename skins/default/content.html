@@ -1,0 +1,6 @@
+<div>
+    <!--@foreach($document_list as $oDocument)-->
+    <h4><a href="{$oDocument->getPermanentUrl()}">{$oDocument->getTitle()}</a></h4>
+    <p>{$oDocument->getContent(false);}</p>
+    <!--@end-->
+</div>
